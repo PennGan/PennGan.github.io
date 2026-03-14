@@ -16,32 +16,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
-        body: "Inter",
+        header: "Noto Serif SC",
+        body: "Noto Sans SC",
         code: "IBM Plex Mono"
       },
       colors: {
         lightMode: {
-          light: "#FAFAF8",
-          lightgray: "#E6E6E1",
-          gray: "#A3A39A",
-          darkgray: "#5E5E57",
+          light: "#f7f5f1",
+          lightgray: "#dfdbd2",
+          gray: "#9d9588",
+          darkgray: "#5b584f",
           dark: "#2B2B2B",
-          secondary: "#2B2B2B",
-          tertiary: "#D7D7D1",
-          highlight: "rgba(43, 43, 43, 0.08)",
-          textHighlight: "#E9E9E4"
+          secondary: "#355c7d",
+          tertiary: "#6c8b74",
+          highlight: "rgba(53, 92, 125, 0.12)",
+          textHighlight: "#efe1a7"
         },
         darkMode: {
-          light: "#161616",
-          lightgray: "#2A2A2A",
-          gray: "#7F7F7A",
-          darkgray: "#DADAD5",
-          dark: "#F5F5F2",
-          secondary: "#F0F0EB",
-          tertiary: "#3A3A38",
-          highlight: "rgba(255, 255, 255, 0.1)",
-          textHighlight: "#4A4A46"
+          light: "#171818",
+          lightgray: "#343638",
+          gray: "#6b7075",
+          darkgray: "#d2d6da",
+          dark: "#f2f4f5",
+          secondary: "#9ebad1",
+          tertiary: "#9bb69a",
+          highlight: "rgba(158, 186, 209, 0.16)",
+          textHighlight: "#665f1f"
         }
       }
     }
