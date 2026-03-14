@@ -16,32 +16,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Serif SC",
-        body: "Noto Sans SC",
+        header: "Inter",
+        body: "Inter",
         code: "IBM Plex Mono"
       },
       colors: {
         lightMode: {
-          light: "#f7f5f1",
-          lightgray: "#dfdbd2",
-          gray: "#9d9588",
-          darkgray: "#5b584f",
-          dark: "#26231f",
-          secondary: "#355c7d",
-          tertiary: "#6c8b74",
-          highlight: "rgba(53, 92, 125, 0.12)",
-          textHighlight: "#efe1a7"
+          light: "#F7FBFF",
+          lightgray: "#DCE8F3",
+          gray: "#8CA3B8",
+          darkgray: "#56708A",
+          dark: "#2B2B2B",
+          secondary: "#3A6EA5",
+          tertiary: "#A9C8E8",
+          highlight: "rgba(95, 168, 255, 0.14)",
+          textHighlight: "#D8EBFF"
         },
         darkMode: {
-          light: "#171818",
-          lightgray: "#343638",
-          gray: "#6b7075",
-          darkgray: "#d2d6da",
-          dark: "#f2f4f5",
-          secondary: "#9ebad1",
-          tertiary: "#9bb69a",
-          highlight: "rgba(158, 186, 209, 0.16)",
-          textHighlight: "#665f1f"
+          light: "#101826",
+          lightgray: "#233246",
+          gray: "#7D93AB",
+          darkgray: "#D7E6F6",
+          dark: "#F5F9FD",
+          secondary: "#8CB8E8",
+          tertiary: "#4D79A6",
+          highlight: "rgba(95, 168, 255, 0.2)",
+          textHighlight: "#35506E"
         }
       }
     }
@@ -92,4 +92,3 @@ const config: QuartzConfig = {
 }
 
 export default config
-

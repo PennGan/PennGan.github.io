@@ -14,6 +14,7 @@ export const sharedPageComponents: SharedLayout = {
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.Search(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index"
@@ -28,10 +29,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Flex({
       components: [
         {
-          Component: Component.Search(),
-          grow: true
-        },
-        {
           Component: Component.Darkmode()
         },
         {
@@ -41,14 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer()
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks()
-  ]
+  right: [Component.DesktopOnly(Component.TableOfContents())]
 }
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
+    Component.Search(),
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta()
@@ -59,10 +54,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Flex({
       components: [
         {
-          Component: Component.Search(),
-          grow: true
-        },
-        {
           Component: Component.Darkmode()
         }
       ]
@@ -71,4 +62,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: []
 }
-
