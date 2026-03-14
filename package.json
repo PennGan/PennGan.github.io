@@ -1,0 +1,15 @@
+{
+  "name": "academic-quartz-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Personal academic knowledge website content and automation for Quartz.",
+  "scripts": {
+    "sync:obsidian": "node scripts/sync-obsidian.mjs",
+    "sync:obsidian:dry": "node scripts/sync-obsidian.mjs --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
